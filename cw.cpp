@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <iomanip>
@@ -21,7 +21,7 @@ struct Profile //анкета студента
 //удаление лишних пробелов (для дат)
 string DelSpaces(string s)
 {
-	for (int j = 0; j < s.length(); j++)
+	for (size_t j = 0; j < s.length(); j++)
 	{
 		if (s[j] == ' ')
 		{
@@ -2048,25 +2048,6 @@ int lb2()
 	return 0;
 }
 
-#include <iostream>
-#include <string>
-using namespace std;
-
-//удаляет лишние пробелы, введённые пользователем
-string DelSpaces(string s)
-{
-	for (size_t j = 0; j < s.length(); j++)
-	{
-		if (s[j] == ' ')
-		{
-			while (s[j + 1] == ' ') s.erase(j + 1, 1);
-		}
-	}
-	if (s[0] == ' ') s.erase(0, 1);
-	if (s[s.length() - 1] == ' ') s.erase(s.length() - 1, 1);
-	return s;
-}
-
 //проверка, является ли символ цифрой
 bool isNumber(char s)
 {
@@ -2441,7 +2422,7 @@ bool initVar(string& expr)
 	char sw = '\0';
 	for (size_t i = 0; i < expr.length() - 1; i++)
 	{
-		if (!priorOperation(expr[i]) && !isNumber(expr[i])) //если не является операцией и не является числом
+		if (!priorOperation(expr[i]) && !isNumber(expr[i]) && expr[i] != ' ') //если не является операцией и не является числом
 		{
 			cout << "Найден неизвестный символ: " << expr[i] << ". Инициализировать его как переменную? (Y/N)\n";
 			cin >> sw;
@@ -2449,6 +2430,9 @@ bool initVar(string& expr)
 
 			switch (sw)
 			{
+			case ' ':
+				cout << "Неверный ввод\n";
+				return 1;
 			case 'N':
 				return 1;
 			case 'Y':
@@ -2471,7 +2455,6 @@ bool initVar(string& expr)
 					expr.replace(pos, toReplace.size(), replaceWith);
 					pos += replaceWith.size();
 				}
-				i = 0;
 				break;
 			}
 		}
@@ -2669,14 +2652,14 @@ bool invalidInputDirectPolish(string& expr)
 	{
 		if (priorOperation(expr[expr.length() - 1])) { cout << "Выражение должно иметь в конце два числа или переменные\n"; return 1; }
 		j--;
-		if (j == 0) { cout << "Количество операций не соответствует количеству чисел\n"; return 1; } //если не найдено пробела или операции
+		if (j == 0) { cout << "2Количество операций не соответствует количеству чисел\n"; return 1; } //если не найдено пробела или операции
 	}
 	j--;
 	while (expr[j] != ' ')
 	{
 		if (priorOperation(expr[expr.length() - 1])) { cout << "Выражение должно иметь в конце два числа или переменные\n"; return 1; }
 		j--;
-		if (j == 0) { cout << "Количество операций не соответствует количеству чисел\n"; return 1; } //если не найдено пробела или операции
+		if (j == 0) { cout << "1Количество операций не соответствует количеству чисел\n"; return 1; } //если не найдено пробела или операции
 	}
 
 	//Всегда начинается на операцию
