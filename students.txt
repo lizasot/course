@@ -1,0 +1,161 @@
+Ivanchuk Evgenia Vadimovna
+9894
+6
+F
+evening
+3 4 5 5 5 5 5 5 
+Sat Feb 29 20:05:44 2020
+Zubov Il'ya Konstantinovich
+5801
+2
+M
+distance
+4 4 3 3 4 4 5 4 
+Sun Feb 23 15:35:39 2020
+Firsov Il'ya Pavlovich
+7878
+3
+M
+evening
+5 5 4 5 3 3 4 3 
+Sun Feb 23 23:35:39 2020
+Kurochkin Sergey Germanovich
+5866
+3
+M
+evening
+3 3 5 3 4 5 4 3 
+Sun Feb 23 03:38:39 2020
+Samsonov Daniil Bogdanovich
+9894
+15
+M
+day
+3 3 5 5 4 4 5 4 
+Tue Feb 25 00:14:46 2020
+Gromov Dmitriy Timurovich
+6242
+2
+M
+day
+3 3 5 4 5 5 5 4 
+Tue Feb 25 03:26:46 2020
+Smirnov Kirill Ivanovich
+6242
+15
+M
+distance
+5 4 4 4 5 5 5 4 
+Tue Feb 25 18:54:46 2020
+Novikov Dmitriy Aleksandrovich
+5866
+7
+M
+distance
+4 3 3 4 4 4 3 5 
+Tue Feb 25 23:53:46 2020
+Stepanov Aleksandr Maksimovich
+9802
+2
+M
+evening
+5 4 4 4 5 5 5 4 
+Sat Feb 29 06:21:02 2020
+Kuznetsov Mikhail Stepanovich
+9802
+7
+M
+distance
+4 5 5 4 4 4 5 3 
+Sat Feb 29 20:14:02 2020
+Pavlov Igor' Romanovich
+9802
+20
+M
+distance
+3 5 5 4 5 5 5 5 
+Fri Mar 6 21:28:57 2020
+Bykova Miya Platonovna
+7948
+20
+F
+day
+4 4 5 4 5 5 5 5 
+Fri Mar 6 10:33:57 2020
+Medvedeva Varvara Demidovna
+7878
+17
+F
+day
+5 5 5 5 5 5 5 5 
+Fri Mar 6 16:38:57 2020
+Shchukina Vasilisa Yaroslavovna
+6242
+17
+F
+evening
+5 5 5 5 5 5 5 5 
+Fri Mar 6 10:33:57 2020
+Zakharova Valeriya Stepanovna
+5801
+11
+F
+evening
+5 5 4 4 5 5 5 5 
+Fri Mar 6 01:07:57 2020
+Morozova Angelina Nikolaevna
+7878
+11
+F
+day
+4 4 4 4 5 4 4 4 
+Mon Apr 5 00:14:41 2021
+Moiseeva Dar'ya Daniilovna
+7878
+22
+F
+evening
+4 4 4 5 5 5 4 5 
+Mon Apr 5 00:15:31 2021
+Kazakova Anna Egorovna
+5492
+4
+F
+distance
+4 5 4 5 5 4 4 4 
+Mon Apr 5 00:16:02 2021
+Nesterova Madina Nikolaevna
+9802
+4
+F
+day
+5 5 5 5 5 5 5 5 
+Mon Apr 5 00:17:23 2021
+Agafonova Stefaniya Il'inichna
+6242
+26
+F
+evening
+5 5 5 5 5 5 5 5 
+Mon Apr 5 00:17:39 2021
+Makarova Viktoriya Demidovna
+5801
+16
+F
+day
+5 4 5 3 3 4 5 4 
+Mon Apr 5 00:17:56 2021
+Agafonova Stefaniya Il'inichna
+6242
+26
+M
+evening
+5 5 5 5 5 5 5 5 
+Mon May 31 21:29:25 2021
+Kurochkin Sergey Germanovich
+5866
+3
+M
+evening
+3 3 5 3 4 5 4 3 
+Mon May 31 22:08:10 2021
